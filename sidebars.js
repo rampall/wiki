@@ -150,7 +150,8 @@ module.exports = {
             type: "generated-index",
           },
           items: [
-            {
+              "pos/design/heimdall/overview",
+/*            {
               type: "category",
               label: "Heimdall",
               link: {
@@ -196,7 +197,7 @@ module.exports = {
                   ],
                 },
               ],
-            },
+            }, */
             {
               type: "category",
               label: "Bor",
@@ -219,7 +220,7 @@ module.exports = {
               },
               collapsed: true,
               items: [
-                "pos/design/validator/architecture",
+                // "pos/design/validator/architecture",
                 "pos/design/validator/responsibilities",
                 "pos/design/validator/core-components/staking",
                 //"maintain/polygon-basics/liquid-delegation",
@@ -231,7 +232,7 @@ module.exports = {
                     type: "generated-index",
                   },
                   items: [
-                    "pos/design/validator/core-components/heimdall-chain",
+                    // "pos/design/validator/core-components/heimdall-chain",
                     "pos/design/validator/core-components/bor-chain",
                     "pos/design/validator/core-components/checkpoint-mechanism",
                     "pos/design/validator/core-components/key-management",

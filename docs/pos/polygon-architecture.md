@@ -47,25 +47,7 @@ The PoS mechanism also acts as a mitigation to the data unavailability problem f
 
 ## Heimdall
 
-Heimdall is the proof of stake validation layer that handles the aggregation of blocks produced
-by Bor into a Merkle tree and publishes the Merkle root periodically to the
-root chain. The periodic publishing of snapshots of Bor is called checkpoints.
-
-1. Validates all the blocks since the last checkpoint.
-2. Creates a Merkle tree of the block hashes.
-3. Publishes the Merkle root hash to the Ethereum mainnet.
-
-Checkpoints are important for two reasons:
-
-1. Providing finality on the root chain.
-2. Providing proof of burn in withdrawal of assets.
-
-An overview of the process:
-
-* A subset of active validators from the pool is selected to act as block producers for a span. These block producers are responsible for creating blocks and broadcasting the created blocks on the network.
-* A checkpoint includes the Merkle root hash of all blocks created during any given interval. All nodes validate the Merkle root hash and attach their signature to it.
-* A selected proposer from the validator set is responsible for collecting all signatures for a particular checkpoint and committing the checkpoint on the Ethereum mainnet.
-* The responsibility of creating blocks and proposing checkpoints is variably dependent on a validator’s stake ratio in the overall pool.
+Heimdall is the proof of stake validation layer that handles the aggregation of blocks produced by Bor into a Merkle tree and publishes the Merkle root periodically to the root chain. The periodic publishing of snapshots of Bor is called checkpoints.
 
 More details on Heimdall are available on the [Heimdall architecture](/docs/pos/design/heimdall/overview) guide.
 
@@ -82,6 +64,5 @@ More details are available on the [Bor architecture](/docs/pos/design/bor/overvi
 
 ## Resources
 
-* [Bor Architecture](https://wiki.polygon.technology/docs/pos/design/bor)
-* [Heimdall Architecture](https://forum.polygon.technology/t/matic-system-overview-heimdall/8323)
-* [Checkpoint Mechanism](https://forum.polygon.technology/t/checkpoint-mechanism-on-heimdall/7160)
+* [Bor Architecture](/docs/pos/design/bor/overview)
+* [Heimdall Architecture](/docs/pos/design/heimdall/overview)

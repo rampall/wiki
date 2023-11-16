@@ -38,11 +38,9 @@ For Polygon, the node is designed with a two layer implementation Heimdall (Vali
 
 ## Heimdall (Validator layer)
 
-Heimdall (the All-Protector) is the purveyor of all that happens in the Polygon Proof-of-Stake system – good or bad.
+[Heimdall](/docs/pos/design/heimdall/overview/) is the purveyor of all that happens in the Polygon Proof-of-Stake system.
 
 Heimdall is our Proof-of-Stake Verifier layer, which is responsible for checkpointing a representation of the blocks to the main chain in our architecture. We have implemented this by building on top of the Tendermint consensus engine with changes to the signature scheme and various data structures.
-
-For more information, please read [https://blog.matic.network/heimdall-and-bor-matic-validator-and-block-production-layers/](https://blog.matic.network/heimdall-and-bor-matic-validator-and-block-production-layers/).
 
 ## Bor (Block Producer layer)
 
