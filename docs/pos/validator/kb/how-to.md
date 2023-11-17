@@ -20,6 +20,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Before setting up the Validator node
 
+:::info Validator application
+
+If you want to become a validator in the Polygon PoS network, you first need to apply for it through [<ins>this form</ins>](https://polygoncommunity.typeform.com/validatorshub). 
+
+:::
+
 :::caution
 
 We recommend running the Validator node with Sentry. Otherwise, you may encounter security concerns and issues with your Validator node.
