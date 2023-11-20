@@ -197,20 +197,7 @@ module.exports = {
                 },
               ],
             },
-            {
-              type: "category",
-              label: "Bor",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "pos/design/bor/overview",
-                "pos/design/bor/bor",
-                "pos/design/bor/core_concepts",
-                "pos/design/bor/consensus",
-              ],
-            },
+            "pos/design/bor/overview",
             {
               type: "category",
               label: "Validators",
@@ -232,7 +219,6 @@ module.exports = {
                   },
                   items: [
                     "pos/design/validator/core-components/heimdall-chain",
-                    "pos/design/validator/core-components/bor-chain",
                     "pos/design/validator/core-components/checkpoint-mechanism",
                     "pos/design/validator/core-components/key-management",
                     "pos/design/validator/core-components/derivatives",
