@@ -24,7 +24,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 If you want to become a validator in the Polygon PoS network, please submit an application via [<ins>this form</ins>](https://polygoncommunity.typeform.com/validatorshub). 
 
-If you don't receive an automatic invitation for an interview, your application is being added to the waitlist.
+Every application is scored and ranked.
+If you did not receive an automatic invitation for an interview, your application is being added to the waitlist.
 Applications on the waitlist are considered on a rolling basis. Waitlisted applications are not guaranteed for further consideration.
 
 :::
