@@ -22,7 +22,7 @@ This tutorial will guide you through the process of setting up a CDK Validium on
 
 :::info Polygon CDK is in public preview stage and subject to changes
 
-Please note that the current Data Availability (DA) configuration in Polygon CDK is using a Data Availability Committee (DAC) node with a local Geth client as the L1. However, the integration with Layer 1 testnets, including Sepoilla, is actively being pursued.
+Please note that the current Data Availability (DA) configuration in Polygon CDK is using a Data Availability Committee (DAC) node with a local Geth client as the L1. However, the integration with Layer 1 testnets, including Sepolia, is actively being pursued.
 
 The CDK Validium is actively being developed, with ongoing feature enhancements and issue resolutions. For the latest updates, follow our official GitHub repositories.
 
